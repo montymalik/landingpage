@@ -57,17 +57,18 @@ img {
 }
 .right-top {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
     border-style: solid;
     border-color: red;
-    width: 50%;
     justify-content: center;
     align-items: center;
 }
 
 .left-top {
-    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
     justify-content: left;
-    width: 50%;
     border-style: solid;
     border-color: red;
     padding: 48px;
